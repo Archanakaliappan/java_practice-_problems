@@ -1,0 +1,36 @@
+Implement a tack form Scratch.
+
+Class hello{
+public int size;
+public long[] arr;
+public int top;
+
+public MyStack(int s){
+    size=s;
+    arr=new long[s];
+    top=-1;
+}
+public void push(long a){
+    arr[++top]=a;
+}
+public int pop(long b){
+    return arr[top--];
+}
+public int peek(long c){
+    return arr[top];
+}
+public boolean isEmpty(){
+    return (top==-1);
+}
+public int isFull(){
+    return top==s-1;
+}
+
+
+
+
+public static void main(String args[]){
+    MyStack st = new MyStack(10);
+
+}
+}
