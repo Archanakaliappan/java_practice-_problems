@@ -1,0 +1,99 @@
+Day-1
+ -Implement Stack
+ -Reverse a String
+ -Valid parantheses
+
+1)Implement a stack:
+
+Class Stack{
+    int [] arr;
+    int size;
+    int top;
+
+    static void size(int size){
+        this.size=size;
+        arr= new int[size];
+        top=-1;
+    }
+    static void push(int value){
+        if(top==size-1){
+            sop("overflow");
+        }
+        arr[++top]= value;
+    }
+   
+   static int pull(){
+    if(top==-1){
+        sop("stack underflow");
+        return -1;
+    }
+    return arr[top--];
+
+   }
+
+   static int peek(){
+    if(top=-1) return -1;
+    return arr[top];
+   }
+
+}
+
+
+REVERSE A STRING:
+
+public static void main(String args[]){
+    String s="hello";
+    Stack<Character> st = new Stack<>();
+
+
+// push
+for(char c : s.toCharArray()) {
+    st.push(c);
+}
+
+// pop and build result
+String result = "";
+while(!st.isEmpty()) {
+    result += st.pop();
+}
+
+System.out.println(result);
+}
+
+VALID parantheses
+
+import java.util.*;
+
+public class Main {
+    public static boolean isValid(String a) {
+        Stack<Character> st = new Stack<>();
+
+        for(char ch : a.toCharArray()) {
+
+            // Opening brackets
+            if(ch == '{' || ch == '[' || ch == '(') {
+                st.push(ch);
+            }
+
+            // Closing brackets
+            else {
+                if(st.isEmpty()) return false;
+
+                if((ch == '}' && st.peek() == '{') ||
+                   (ch == ']' && st.peek() == '[') ||
+                   (ch == ')' && st.peek() == '(')) {
+                    st.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        return st.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        String a = "{[()]}";
+        System.out.println(isValid(a));
+    }
+}
