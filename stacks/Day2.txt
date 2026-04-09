@@ -25,5 +25,40 @@ for(char c:s.toCharArray()){
 }
 
 //Find the lenght or substring of the valid substring
+import java.util.*;
 
-example:
+public class Main {
+    public static boolean hasRedundantBrackets(String s) {
+        Stack<Character> st = new Stack<>();
+
+        for(char ch : s.toCharArray()) {
+
+            if(ch == ')') {
+                boolean hasOperator = false;
+
+                while(!st.isEmpty() && st.peek() != '(') {
+                    char top = st.pop();
+
+                    if(top == '+' || top == '-' || top == '*' || top == '/') {
+                        hasOperator = true;
+                    }
+                }
+
+                // pop the '('
+                st.pop();
+
+                if(!hasOperator) return true; // redundant
+            } 
+            else {
+                st.push(ch);
+            }
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+        String s = "((a+b))";
+        System.out.println(hasRedundantBrackets(s));
+    }
+}
