@@ -1,0 +1,78 @@
+Finding a next Graater Element:
+
+Public static void main(String args[])
+{
+    Stack<Integer> st = new Stack<>();
+    int[] arr={1,4,2,5,6,3};
+    for(int i=arr.length-1;i>=0;i--){
+        int temp=arr[i];
+        while(!st.isEmpty()&& st.peek<=arr[i]){
+            st.pop();
+        }
+        if(st.isEmpty()){
+            arr[i]=-1;
+        }
+        else{
+arr[i]=st.peek();
+        }
+        st.push(temp);
+    }
+}
+
+
+Find the next Smaller Element:
+
+import java.util.*;
+
+public class Main {
+    public static void main(String args[]) {
+        int[] arr = {5, 3, 8, 2, 7};
+        Stack<Integer> st = new Stack<>();
+
+        for(int i = arr.length - 1; i >= 0; i--) {
+            int temp = arr[i];
+
+            while(!st.isEmpty() && st.peek() <= arr[i]) {
+                st.pop();
+            }
+
+            if(st.isEmpty()) {
+                arr[i] = -1;
+            } else {
+                arr[i] = st.peek();
+            }
+
+            st.push(temp);
+        }
+
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+Find the Previous Smaller Element:
+import java.util.*;
+
+public class Main {
+    public static void main(String args[]) {
+        Stack<Integer> st = new Stack<>();
+        int arr[] = {3, 4, 2, 1, 9, 5};
+
+        for(int i = 0; i < arr.length; i++) {
+            int temp = arr[i];
+
+            while(!st.isEmpty() && st.peek() >= arr[i]) {
+                st.pop();
+            }
+
+            if(st.isEmpty()) {
+                arr[i] = -1;
+            } else {
+                arr[i] = st.peek();
+            }
+
+            st.push(temp);
+        }
+
+        System.out.println(Arrays.toString(arr));
+    }
+}

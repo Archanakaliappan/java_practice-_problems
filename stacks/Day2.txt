@@ -1,0 +1,29 @@
+// To find a redunatant parantheses 
+example: ((a+b)) , here 2bracets extra so redunatant
+
+CODE:
+
+String s="((a+b)/c)";
+Stack<Character> st= new Stack<>();
+for(char c:s.toCharArray()){
+    if(c==')')
+    {
+        boolean vaild=false;
+        while(!st.isEmpty() && st.peek!='('){
+            char top=st.pop();
+            if(top =='+' || '-' || '*'|| '/'){
+                valid=true;
+            }
+        }
+        st.pop();
+        if(!valid)return true;
+    }
+    else{
+        st.push(c);
+    }
+   return false;
+}
+
+//Find the lenght or substring of the valid substring
+
+example:
