@@ -1,0 +1,76 @@
+arrays solved union problems 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String args[]) {
+        int arr[] = {1, 2, 4, 5};
+        int arr1[] = {2, 3, 5, 6};
+
+        int i = 0, j = 0;
+        ArrayList<Integer> list = new ArrayList<>();
+
+        while (i < arr.length && j < arr1.length) {
+            if (arr[i] < arr1[j]) {
+                list.add(arr[i]);
+                i++;
+            } 
+            else if (arr[i] > arr1[j]) {
+                list.add(arr1[j]);
+                j++;
+            } 
+            else {
+                list.add(arr[i]); // only once
+                i++;
+                j++;
+            }
+        }
+
+        // remaining elements
+        while (i < arr.length) {
+            list.add(arr[i]);
+            i++;
+        }
+
+        while (j < arr1.length) {
+            list.add(arr1[j]);
+            j++;
+        }
+
+        System.out.println(list);
+    }
+}
+
+
+// find intersection in a array 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String args[]) {
+        int arr[] = {1, 2, 4, 5};
+        int arr1[] = {2, 3, 5, 6};
+
+        int i = 0, j = 0;
+        ArrayList<Integer> list = new ArrayList<>();
+
+        while (i < arr.length && j < arr1.length) {
+            if (arr[i] < arr1[j]) {
+                i++;
+            } 
+            else if (arr[i] > arr1[j]) {
+                j++;
+            } 
+            else {
+                // avoid duplicates
+                if (list.size() == 0 || list.get(list.size() - 1) != arr[i]) {
+                    list.add(arr[i]);
+                }
+                i++;
+                j++;
+            }
+        }
+
+        System.out.println(list);
+    }
+}

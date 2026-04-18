@@ -1,0 +1,14 @@
+QUEUE
+
+-FIFO First in first out
+-Insert → happens at REAR(rear → end of queue)
+-Delete → happens at FRONT (front → start of queue  )
+
+Enqueue(insert):
+-Add element at REAR
+-[1, 2, 3] → enqueue(4) → [1, 2, 3, 4]
+
+Dequeue(Delete):
+-Remove element from FRONT
+-[1, 2, 3] → dequeue() → [2, 3]
+
