@@ -1,0 +1,28 @@
+<!-- ALGOVAULT:STATS:START -->
+# 🚀 Data Structures & Algorithms Master Repository
+
+A professionally structured collection of topic-wise DSA solutions, optimized coding patterns, and interview-focused problem solving designed for technical excellence, competitive programming, and software engineering career growth.
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/archanak_23?theme=dark&font=Poppins&ext=heatmap" width="100%" />
+</p>
+
+# 📚 Structured Problem Solving Topics
+
+
+### Math
+<details>
+<summary>Click to expand Math problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 7 | [Reverse Integer](./Math/Reverse%20Integer/) | Easy |
+
+</details>
+
+
+<p align="center">
+Building Technical Excellence Through Consistent Problem Solving.
+</p>
+
+<!-- ALGOVAULT:STATS:END -->
