@@ -16,7 +16,8 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Medium |
+| 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+| 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Easy |
 
 </details>
 
