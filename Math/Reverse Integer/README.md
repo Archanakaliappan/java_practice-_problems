@@ -1,55 +1,43 @@
 # 7. Reverse Integer
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/reverse-integer/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
 
 ## Problem Statement
 
-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+<p>Given a signed 32-bit integer <code>x</code>, return <code>x</code><em> with its digits reversed</em>. If reversing <code>x</code> causes the value to go outside the signed 32-bit integer range <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>, then return <code>0</code>.</p>
 
-Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+<p><strong>Assume the environment does not allow you to store 64-bit integers (signed or unsigned).</strong></p>
 
- 
-Example 1:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: x = 123
-Output: 321
+<pre>
+<strong>Input:</strong> x = 123
+<strong>Output:</strong> 321
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> x = -123
+<strong>Output:</strong> -321
+</pre>
 
-Input: x = -123
-Output: -321
+<p><strong class="example">Example 3:</strong></p>
 
+<pre>
+<strong>Input:</strong> x = 120
+<strong>Output:</strong> 21
+</pre>
 
-Example 3:
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Input: x = 120
-Output: 21
+<ul>
+	<li><code>-2<sup>31</sup> &lt;= x &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
 
-
- 
-Constraints:
-
-
-	-231 <= x <= 231 - 1
-
-## Examples
-
-```
-Input: x = 123
-Output: 321
-
-Input: x = -123
-Output: -321
-
-Input: x = 120
-Output: 21
-```
-
-## Constraints
-
-- -231 <= x <= 231 - 1
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*

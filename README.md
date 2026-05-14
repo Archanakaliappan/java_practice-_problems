@@ -27,7 +27,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 7 | [Reverse Integer](./Math/Reverse%20Integer/) | Easy |
+| 7 | [Reverse Integer](./Math/Reverse%20Integer/) | Medium |
 
 </details>
 
