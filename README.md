@@ -10,6 +10,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 # 📚 Structured Problem Solving Topics
 
 
+### Array
+<details>
+<summary>Click to expand Array problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+
+</details>
+
+
 ### Math
 <details>
 <summary>Click to expand Math problems</summary>
