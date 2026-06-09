@@ -31,7 +31,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Candy](./General/Candy/) | Medium |
+| — | [Count Number of Nice Subarrays](./General/Count%20Number%20of%20Nice%20Subarrays/) | Medium |
 
 </details>
 
