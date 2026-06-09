@@ -25,6 +25,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### General
+<details>
+<summary>Click to expand General problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| — | [Candy](./General/Candy/) | Medium |
+
+</details>
+
+
 ### Math
 <details>
 <summary>Click to expand Math problems</summary>
