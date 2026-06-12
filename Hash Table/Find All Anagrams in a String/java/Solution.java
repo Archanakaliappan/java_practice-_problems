@@ -3,6 +3,9 @@ class Solution {
         int l = 0;
         int s1 = s.length();
         int s2 = p.length();
+        if (s1 < s2) {
+            return new ArrayList<>();
+        }
         int arr1[] = new int[26];
         int arr2[] = new int[26];
         ArrayList<Integer> list = new ArrayList<>();
