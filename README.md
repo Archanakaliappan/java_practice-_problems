@@ -28,6 +28,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 912 | [Sort an Array](./Array/Sort%20an%20Array/) | Easy |
 | 1004 | [Max Consecutive Ones III](./Array/Max%20Consecutive%20Ones%20III/) | Medium |
 | 1248 | [Count Number of Nice Subarrays](./Array/Count%20Number%20of%20Nice%20Subarrays/) | Medium |
+| 1695 | [Maximum Erasure Value](./Array/Maximum%20Erasure%20Value/) | Medium |
 
 </details>
 
