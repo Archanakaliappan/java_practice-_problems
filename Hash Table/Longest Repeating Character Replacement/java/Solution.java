@@ -7,13 +7,13 @@ class Solution {
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
             map.put(ch, map.getOrDefault(ch,0)+1);
-            maxfreq=Integer.max(maxfreq,map.get(ch)-1);//expand
+            maxfreq=Math.max(maxfreq,map.get(ch));//expand
 
-        if(i-j-maxfreq>k){// shrink
-            map.put(s.charAt(j),map.get(s.charAt(j)));
+        while((i-j+1)-maxfreq>k){// shrink
+            map.put(s.charAt(j),map.get(s.charAt(j))-1);
             j++;
         }
-        maxlen=Integer.max(maxlen,i-j+1);
+        maxlen=Math.max(maxlen,i-j+1);
         
         }
         return maxlen;
