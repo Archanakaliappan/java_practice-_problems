@@ -59,7 +59,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Count Number of Nice Subarrays](./General/Count%20Number%20of%20Nice%20Subarrays/) | Medium |
+| — | [Game Play Analysis I](./General/Game%20Play%20Analysis%20I/) | Medium |
 
 </details>
 
