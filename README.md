@@ -59,7 +59,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Game Play Analysis I](./General/Game%20Play%20Analysis%20I/) | Medium |
+| — | [Employee Bonus](./General/Employee%20Bonus/) | Medium |
 
 </details>
 
