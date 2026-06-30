@@ -60,7 +60,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Employee Bonus](./General/Employee%20Bonus/) | Medium |
+| — | [Longest Repeating Character Replacement](./General/Longest%20Repeating%20Character%20Replacement/) | Medium |
 
 </details>
 
