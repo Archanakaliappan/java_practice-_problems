@@ -22,6 +22,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 46 | [Permutations](./Array/Permutations/) | Medium |
 | 47 | [Permutations II](./Array/Permutations%20II/) | Medium |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
+| 73 | [Set Matrix Zeroes](./Array/Set%20Matrix%20Zeroes/) | Medium |
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 135 | [Candy](./Array/Candy/) | Easy |
 | 209 | [Minimum Size Subarray Sum](./Array/Minimum%20Size%20Subarray%20Sum/) | Medium |
