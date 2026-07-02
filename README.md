@@ -20,6 +20,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Easy |
 | 39 | [Combination Sum](./Array/Combination%20Sum/) | Medium |
 | 46 | [Permutations](./Array/Permutations/) | Medium |
+| 47 | [Permutations II](./Array/Permutations%20II/) | Medium |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 | 135 | [Candy](./Array/Candy/) | Easy |
 | 209 | [Minimum Size Subarray Sum](./Array/Minimum%20Size%20Subarray%20Sum/) | Medium |
