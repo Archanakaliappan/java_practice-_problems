@@ -111,6 +111,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### String
+<details>
+<summary>Click to expand String problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 1021 | [Remove Outermost Parentheses](./String/Remove%20Outermost%20Parentheses/) | Easy |
+
+</details>
+
+
 ### Two Pointers
 <details>
 <summary>Click to expand Two Pointers problems</summary>
