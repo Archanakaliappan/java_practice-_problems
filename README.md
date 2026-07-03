@@ -19,6 +19,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
 | 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Easy |
 | 15 | [3Sum](./Array/3Sum/) | Medium |
+| 18 | [4Sum](./Array/4Sum/) | Medium |
 | 39 | [Combination Sum](./Array/Combination%20Sum/) | Medium |
 | 46 | [Permutations](./Array/Permutations/) | Medium |
 | 47 | [Permutations II](./Array/Permutations%20II/) | Medium |
