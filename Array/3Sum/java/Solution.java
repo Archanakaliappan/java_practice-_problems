@@ -1,31 +1,32 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int sum=0;
-        List<Integer> list =new ArrayList<>();
-        for(int i=0;i<3;i++){
-              sum+=nums[i];
-        }
-        List<List<Integer>> ans=new ArrayList<>();
-        if(sum==0){
-            list.add(nums[0]);
-              list.add(nums[1]);
-                list.add(nums[2]);
-                ans.add(list);
-        }
-        int l=0;
-
-        for(int i=3;i<nums.length;i++){
-            //expand
-            sum+=nums[i];
-            sum-=nums[l];
-           
-            if(sum==0){
-                list.remove(0);
-                list.add(nums[i]);
-              ans.add(list);
+      
+        List<List<Integer>> list=new ArrayList<>();
+        int e=nums.length-1;
+        Arrays.sort(nums);
+        for(int i=0;i<nums.length;i++){
+            if(i>0 && nums[i]==nums[i-1]){
+                continue;
             }
-            l++;
+              int k=i+1;
+            while(k<e){
+                  sum=nums[i]+nums[k]+nums[e];
+                  if(sum>0){
+                    e--;
+                  }
+                  else if(sum<0){
+                   k++;
+                  }
+                  else if(sum==0){
+                  list.add(Arrays.asList(nums[i],nums[k],nums[e]));
+                  k++;
+                  }
+                  while (nums[k] == nums[k-1] && k< e) {
+                        k++;
+                    }
+            }
         }
-        return ans;
+        return list;
     }
 }
