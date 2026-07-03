@@ -106,6 +106,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 9 | [Palindrome Number](./Math/Palindrome%20Number/) | Easy |
+| 1903 | [Largest Odd Number in String](./Math/Largest%20Odd%20Number%20in%20String/) | Easy |
 
 </details>
 
