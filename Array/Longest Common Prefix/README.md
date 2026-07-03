@@ -5,35 +5,48 @@
 
 ## Problem Statement
 
-<p>Write a function to find the longest common prefix string amongst an array of strings.</p>
+Write a function to find the longest common prefix string amongst an array of strings.
 
-<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>
+If there is no common prefix, return an empty string "".
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> strs = [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
-<strong>Output:</strong> &quot;fl&quot;
-</pre>
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> strs = [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
-<strong>Output:</strong> &quot;&quot;
-<strong>Explanation:</strong> There is no common prefix among the input strings.
-</pre>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
 
-<ul>
-	<li><code>1 &lt;= strs.length &lt;= 200</code></li>
-	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
-	<li><code>strs[i]</code> consists of only lowercase English letters if it is non-empty.</li>
-</ul>
 
+ 
+Constraints:
+
+
+	1 <= strs.length <= 200
+	0 <= strs[i].length <= 200
+	strs[i] consists of only lowercase English letters if it is non-empty.
+
+## Examples
+
+```
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+
+## Constraints
+
+- 1 <= strs.length <= 200
+- 0 <= strs[i].length <= 200
+- strs[i] consists of only lowercase English letters if it is non-empty.
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
